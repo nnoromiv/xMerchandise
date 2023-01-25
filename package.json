@@ -1,0 +1,16 @@
+{
+  "name": "xmerchandise",
+  "version": "1.0.0",
+  "description": "redeemers best delivery method",
+  "main": "index.js",
+  "author": "AstroXtechnologies",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

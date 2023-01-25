@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <link rel="stylesheet" href="./styles/main.scss">
+
+  <title>X-Merchandise | E-commerce store</title>
+</head>
+
+
+<body id="body-pd">
+  <header class="header" id="header">
+    <div class="header__toggle">
+      <i class="bx bx-menu nav__icon" id="header-toggle"></i>
+    </div>
+
+    <div class="search-wrapper">
+      <i class="bx bx-search-alt"></i>
+      <input type="search" autofocus placeholder="Search for products on X-M" />
+    </div>
+
+    <div class="header__img">
+      <a href="./cart.html" class="nav__link-l"></a>
+      <i class="bx bx-cart-alt nav__icon"><span>0</span></i>
+    </div>
+  </header>
+
+  <div class="l-navbar" id="nav-bar">
+    <nav class="nav">
+      <div>
+        <a href="#" class="nav__logo">
+          <i class="bx bx-layer nav__icon nav__logo-icon"></i>
+          <!----<img src="" alt="" width="125px">---->
+          <span class="nav__logo-name">XM</span>
+        </a>
+        <div class="nav__list">
+          <a href="./admdas.html" class="nav__link ">
+            <i class="bx bx-grid-alt nav__icon"></i>
+
+            <span class="nav__name">Dashboard</span>
+          </a>
+
+          <a href="./profile.html" class="nav__link">
+            <i class="bx bx-user nav__icon"></i>
+
+            <span class="nav__name">Account</span>
+          </a>
+
+          <a href="./product.html" class="nav__link">
+            <i class="bx bx-message-square-dots nav__icon"></i>
+
+            <span class="nav__name">Products</span>
+          </a>
+
+          <a href="./product-details.html" class="nav__link">
+            <i class="bx bx-bookmark nav__icon"></i>
+
+            <span class="nav__name">Recent</span>
+          </a>
+
+          <a href="#" class="nav__link">
+            <i class="bx bx-folder nav__icon"></i>
+
+            <span class="nav__name">Contact</span>
+          </a>
+
+          <a href="#" class="nav__link">
+            <i class="bx bx-analyse nav__icon"></i>
+
+            <span class="nav__name">Analytics</span>
+          </a>
+        </div>
+      </div>
+
+      <a href="./login.html" class="nav__link">
+        <i class="bx bx-log-in nav__icon"></i>
+
+        <span class="nav__name">Log-in</span>
+      </a>
+
+      <a href="#" class="nav__link">
+        <i class="bx bx-log-out nav__icon"></i>
+        <span class="nav__name">Log-out</span>
+      </a>
+    </nav>
+  </div>
+
+  <script src="./navbar.js" async></script>
+</body>
+
+<div class="row">
+  <div class="col-2">
+    <h1>Get Your Body <br>The Best Style!</h1>
+    <a href="" class="btn-2">Explore Now &#8594;</a>
+  </div>
+  <div class="col-2">
+    <img src="./img/undraw_package_arrived_63rf.svg" alt="">
+  </div>
+</div>
+
+<script>
+  feather.replace()
+</script>
+
+<main>
+  <script src="./cart.js" async></script>
+  <div class="listing">
+    <div class="container">
+      <div class="l-header">
+        <div class="header-title">
+          <h1 class="cop">Top selling food</h1>
+        </div>
+      </div>
+      <div class="listing-grid">
+        <div class="listing-grid-element">
+          <img class="shop-item-image"
+            src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+            alt="semo and vegetable" />
+          <h3 class="shop-item-title">Efo riro with semo</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/background2.jpg" />
+          <h3 class="shop-item-title">Meat-pie</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/background.jpg" />
+          <h3 class="shop-item-title">Our logo</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="listing">
+    <div class="container">
+      <div class="l-header">
+        <div class="header-title">
+          <h1 class="cop">Clothes</h1>
+        </div>
+      </div>
+
+      <div class="listing-grid">
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/1.jpg" />
+          <h3 class="shop-item-title">Trousers - Blue</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/2.jpg" />
+          <h3 class="shop-item-title">Trousers</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/111.jpg" />
+          <h3 class="shop-item-title">Black joggers</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="listing">
+    <div class="container">
+      <div class="l-header">
+        <div class="header-title">
+          <h1 class="cop"> Co-operate</h1>
+        </div>
+      </div>
+
+      <div class="listing-grid">
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/casual-shirt.jpg" />
+          <h3 class="shop-item-title">T-shirt</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/mlj3352.jpg" />
+          <h3 class="shop-item-title">Round-neck vest</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/Screen.png" />
+          <h3 class="shop-item-title">Round-neck vest - White</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="listing">
+    <div class="container">
+      <div class="l-header">
+        <div class="header-title">
+          <h1 class="cop">Latest products</h1>
+        </div>
+      </div>
+
+      <div class="listing-grid">
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/3.jpg" />
+          <h3 class="shop-item-title">Shorts</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/9088.png" />
+          <h3 class="shop-item-title">Blue shirts</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/9095.jpg" />
+          <h3 class="shop-item-title">Blue shirt</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+      </div>
+      <div class="listing-grid">
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/q1.jpg" />
+          <h3 class="shop-item-title">XIIVII</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/q2.jpg" />
+          <h3 class="shop-item-title">Rolex</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+        <div class="listing-grid-element">
+          <img class="shop-item-image" src="./src/q3.jpg" />
+          <h3 class="shop-item-title">QLEVS watch</h3>
+          <span class="shop-item-price">₦50.00 per wrap</span>
+          <button class="btn-1" type="button"><i class="bx bx-cart-alt nav__icon"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-1">
+    <div class="offer">
+      <div class="offered">
+        <div class="image">
+          <img src="./src/123.jpg" width="330px" height="280px" class="offer-img" />
+          <div class="text">
+            <p>Excusively available on X-merchandise</p>
+            <h1>Oxford shoes 5</h1>
+            <small>The Oxford shoe 5 features a 40% better (than Loafers shoe )
+              BIG fluffy feels with adjustable toe lenght . So movement is best as
+              it can be</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+  <div class="credit">
+    <h1>Download app from store</h1>
+  </div>
+</div>
+
+
+</main>
+
+</html>

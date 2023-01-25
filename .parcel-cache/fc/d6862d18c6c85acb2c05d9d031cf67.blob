@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <link rel="stylesheet" href="f3ab1efab29a007c66acecfdfd1b4240">
+    <link href="2fe79e86df79c2d6d586c669507407d5" rel="stylesheet">
+    <script src="cb8d0023e3dab8b3c94de43b86da5db4"></script>
+   
+</head>
+<body id="body-pd">
+  <header class="header" id="header">
+    <div class="header__toggle">
+      <i class="bx bx-user" id="header-toggle"></i>
+      <em>User</em>
+    </div>
+  </header>
+
+  <div class="l-navbar" id="nav-bar">
+    <nav class="nav">
+      <div>
+        <a href="dda2b7a2f2b3768e713fec886e5a9eee" class="nav__logo">
+          <i class="bx bx-layer nav__icon nav__logo-icon"></i>
+
+          <span class="nav__logo-name">XM</span>
+        </a>
+        <div class="nav__list">
+          <a href="d61b6ab9d5bdc2ea4964d0a6d59aec1b" class="nav__link ">
+            <i class="bx bx-grid-alt nav__icon"></i>
+
+            <span class="nav__name">Dashboard</span>
+          </a>
+
+          <a href="23bcc8f28ebb2b12628d82dee2b38cc2" class="nav__link active">
+            <i class="bx bx-user nav__icon"></i>
+
+            <span class="nav__name">Account</span>
+          </a>
+
+          <a href="ca772446378667abb80238dd032b4195" class="nav__link">
+            <i class="bx bx-message-square-dots nav__icon"></i>
+
+            <span class="nav__name">Product</span>
+          </a>
+
+          <a href="97cd0cb377bfca78f68bc91a7d31b1d5" class="nav__link">
+            <i class="bx bx-bookmark nav__icon"></i>
+
+            <span class="nav__name">Recent</span>
+          </a>
+
+          <a href="#" class="nav__link">
+            <i class="bx bx-folder nav__icon"></i>
+
+            <span class="nav__name">Contact</span>
+          </a>
+
+          <a href="#" class="nav__link">
+            <i class="bx bx-analyse nav__icon"></i>
+
+            <span class="nav__name">Analytics</span>
+          </a>
+        </div>
+      </div>
+
+      <a href="546f65c2b903b91b54f1a2eb8693c78a" class="nav__link">
+        <i class="bx bx-log-in nav__icon"></i>
+
+        <span class="nav__name">Log-in</span>
+      </a>
+
+      <a href="#" class="nav__link">
+        <i class="bx bx-log-out nav__icon"></i>
+        <span class="nav__name">Log-out</span>
+      </a>
+    </nav>
+  </div>
+
+  <script src="392bbe091409f69c904d19feeda3327d" async=""></script>
+</body>
+
+
+<div class="main-content">
+    <main>
+        <div class="container">
+  <div class="profile-header">
+    <div class="profile-img">
+      <img src="d250b038a46300623b8be3825129d7c6" width="300" height="300" alt="">
+    </div>
+    <div class="profile-nav-info">
+      <h3 class="user-name">John Doe</h3>
+      <div class="address">
+        <p class="state">Osun,</p>
+        <span class="country">Nigeria.</span>
+      </div>
+    </div>
+    <div class="profile-option">
+      <div class="notification">
+        <i class="bx bx-notification"></i>
+        <span class="alert-message"> 1</span>
+      </div>
+    </div>
+  </div>
+  <div class="main-bd">
+    <div class="left-side">
+      <div class="profile-side">
+        <p class="mobile-no"><i class="bx bx-phone"></i>+44 7893xxxx</p>
+        <p class="user-mail">
+          <i class="bx bx-mail-send"></i> John.Doe@gmail.com
+        </p>
+        <div class="user-bio">
+          <h3>BIO</h3>
+          <p class="bio">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dicta
+            deleniti perferendis dignissimos dolorum, corporis dolorem placeat
+            harum dolore ipsa consectetur culpa expedita incidunt voluptatibus
+            provident itaque veritatis explicabo deserunt.
+          </p>
+        </div>
+        <div class="profile-btn">
+          <button class="chatbtn"><i class="bx bx-chat"></i> Chat</button>
+          <button class="createbtn">
+            <a href="#" class="create"></a>
+            <i class="bx bx-list-plus"></i>Create
+          </button>
+        </div>
+        <div class="user-rating">
+          <h3 class="rating">4.5</h3>
+          <div class="rate">
+            <div class="stars">
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <span class="no-user"> <span>123</span>&nbsp;&nbsp;reviews </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-side">
+      <div class="l-nav">
+        <ul>
+          <li onclick="tabs(0)" class="user-post active">POSTS</li>
+
+        </ul>
+      </div>
+      <div class="profile-body">
+        <div class="profile-posts tab">
+          <h1>Your Posts</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis nesciunt et officiis enim porro! Maiores quisquam
+            voluptatibus vitae accusamus, aliquam, quos quaerat ducimus veniam
+            debitis placeat facilis mollitia deleniti modi. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Corrupti totam odio commodi
+            deleniti veritatis ut hic inventore doloremque esse, eius corporis
+            provident delectus magnam, blanditiis ipsum quae accusantium!
+            Laborum, culpa? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Consequatur atque cum cupiditate quaerat. Distinctio neque
+            consectetur eveniet autem, iste vero architecto sunt quod quo nulla
+            quae magni. Recusandae, quas explicabo! Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Veritatis ratione soluta sit optio
+            eius amet consequuntur iusto blanditiis! Nesciunt reprehenderit,
+            tenetur optio quae iste odit error. Quidem minima sapiente totam.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script data-parcel-key="95182cc38918f8f841b6e21183879458">
+  feather.replace()
+</script>
+
+<script src="aaff8b8c7bfe580d7f84af50a1aeb083" async=""></script>
+<script src="354c38623a959bfc322244920bf8e428" async=""></script>
+
+    </main>
+</div>
+</html>

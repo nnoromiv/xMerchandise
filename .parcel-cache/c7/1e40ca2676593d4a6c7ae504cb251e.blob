@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="d8a5e3aa3c6b470ae1301a8c8ce7662f" rel="stylesheet">
+    <script src="77ca78ad7d2ca5af34019c0fee0f6257"></script>
+
+    <link rel="stylesheet" href="e53859a022d4ed440b35868318f843d7">
+
+    <title>All Products - X-Merchandise</title>
+  </head>
+
+  <body id="body-pd">
+    <header class="header" id="header">
+      <div class="header__toggle">
+        <i class="bx bx-message-square-dots nav__icon" id="header-toggle"></i>
+        <span>Product</span>
+      </div>
+
+      <div class="search-wrapper">
+        <i class="bx bx-search-alt"></i>
+        <input type="search" autofocus="" placeholder="Search for products ">
+      </div>
+
+      <div class="header__img">
+        <a href="8b89414375f9cb85ca40e5f9ab0db566" class="nav__link-l"></a>
+        <i class="bx bx-cart-alt nav__icon"></i>
+      </div>
+    </header>
+
+    <div class="l-navbar" id="nav-bar">
+      <nav class="nav">
+        <div>
+          <a href="1d37ea091f8bd8bf60aa8510b12bc7eb" class="nav__logo">
+            <i class="bx bx-layer nav__icon nav__logo-icon"></i>
+            <!----<img src="" alt="" width="125px">---->
+            <span class="nav__logo-name">XM</span>
+          </a>
+          <div class="nav__list">
+            <a href="d9f1ad50796add32c9d9896fb2968e3c" class="nav__link ">
+              <i class="bx bx-grid-alt nav__icon"></i>
+
+              <span class="nav__name">Dashboard</span>
+            </a>
+
+            <a href="979bc262bea1e95e99a48cb2d705da7d" class="nav__link">
+              <i class="bx bx-user nav__icon"></i>
+
+              <span class="nav__name">Account</span>
+            </a>
+
+            <a href="8b50db46b07ee19e67c65a5a0e4db56c" class="nav__link active">
+              <i class="bx bx-message-square-dots nav__icon"></i>
+
+              <span class="nav__name">Products</span>
+            </a>
+
+            <a href="019af55c2c95de2a1f1679371d7d1b31" class="nav__link">
+              <i class="bx bx-bookmark nav__icon"></i>
+
+              <span class="nav__name">Recent</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-folder nav__icon"></i>
+
+              <span class="nav__name">Contact</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-analyse nav__icon"></i>
+
+              <span class="nav__name">Analytics</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="f3e4317af46749831f2c0c22f3a20bae" class="nav__link">
+          <i class="bx bx-log-in nav__icon"></i>
+
+          <span class="nav__name">Log-in</span>
+        </a>
+
+        <a href="#" class="nav__link">
+          <i class="bx bx-log-out nav__icon"></i>
+          <span class="nav__name">Log-out</span>
+        </a>
+      </nav>
+    </div>
+
+    <script src="17780ff4a7452b27041cbb04702db97e" async=""></script>
+  </body>
+<main>
+
+  <div class="small-container">
+    <div class="row row-2">
+      <h2>All Products</h2>
+      <select>
+        <option>Default sorting</option>
+        <option>Sort by price</option>
+        <option>Sort by popularity</option>
+        <option>Sort by rating</option>
+        <option>Sort by sale</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="45fd28689431c546caf0b7bf32ed072c">
+        <h4>Blue T-shirt</h4>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star-half"></i>
+        </div>
+        <p>$10.00</p>
+      </div>
+     <div class="col-4">
+  <img src="ed21f4de8feab481ffa5d2b28499af98">
+  <h4>Blue shirt</h4>
+  <div class="rating">
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star-half"></i>
+    <i class="bx bx-star"></i>
+  </div>
+  <p>$12.00</p>
+</div>
+<div class="col-4">
+  <img src="6c469b71f969dce712b0efc6b26f7015">
+  <h4>Blue Coperate shirt</h4>
+  <div class="rating">
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bx-star"></i>
+    <i class="bx bx-star"></i>
+  </div>
+  <p>$5.00</p>
+</div>
+<div class="col-4">
+  <img src="947331061adbb5f6fc098b16bd35df6f">
+  <h4>Golden watch</h4>
+  <div class="rating">
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bxs-star"></i>
+    <i class="bx bx-star"></i>
+  </div>
+  <p>$40.00</p>
+</div>
+
+
+
+    </div>
+    <div class="row">
+  <div class="col-4">
+    <img src="af379c7688a2130be9ee007fbcc49dd6">
+    <h4>Blue Trouser</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star-half"></i>
+    </div>
+    <p>$50.00</p>
+  </div>
+  <div class="col-4">
+    <img src="fed35cce21c541efd95869bf0bc0d555">
+    <h4>Chinos Trouser</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star-half"></i>
+      <i class="bx bx-star"></i>
+    </div>
+    <p>$35.00</p>
+  </div>
+  <div class="col-4">
+    <img src="b48cd28d47cc53eb107f6fdf22d655b7">
+    <h4>Blue Sweat Pants</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bx-star"></i>
+      <i class="bx bx-star"></i>
+    </div>
+    <p>$15.00</p>
+  </div>
+  <div class="col-4">
+    <img src="d88ea22c4361edd6f63deb9ed3e56300">
+    <h4>Parachute pants</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bx-star"></i>
+    </div>
+    <p>$100.00</p>
+  </div>
+</div>
+    <div class="row">
+  <div class="col-4">
+    <img src="e60dc4926e43c1b16e525ea72596ff5b" height="250px" width="250px">
+    <h4>Meat-Pie</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star-half"></i>
+    </div>
+    <p>$1.00</p>
+  </div>
+  <div class="col-4">
+    <img src="7f0841b7f465d9942cc7e07977d40115" height="250px" width="250px">
+    <h4>Oxford classic shoe</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star-half"></i>
+      <i class="bx bx-star"></i>
+    </div>
+    <p>$20.00</p>
+  </div>
+  <div class="col-4">
+    <img src="d66d29d4dea9af53b478fd5d2d99c715" height="250px" width="250px">
+    <h4>Women's shoe</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bx-star"></i>
+      <i class="bx bx-star"></i>
+    </div>
+    <p>$105.00</p>
+  </div>
+  <div class="col-4">
+    <img src="1ef37cfcd3c79186b6f57c2ecaed732a" height="250px" width="250px">
+    <h4>Old-Oxford classic</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bx-star"></i>
+    </div>
+    <p>$140.00</p>
+  </div>
+</div>
+   <div class="row">
+  <div class="col-4">
+    <img src="bb115a7c2838d82f8c6900644fd4ed39" height="250px">
+    <h4>White T-shirt</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star-half"></i>
+    </div>
+    <p>$60.00</p>
+  </div>
+  <div class="col-4">
+    <img src="2003139efea2b6251d6ffae4ecc7b535">
+    <h4>Ash shirt</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star-half"></i>
+      <i class="bx bx-star"></i>
+    </div>
+    <p>$29.99</p>
+  </div>
+  <div class="col-4">
+    <img src="75aca6140a05a798b1f41f0807848a2c">
+    <h4>Ash pants</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bx-star"></i>
+      <i class="bx bx-star"></i>
+    </div>
+    <p>$115.00</p>
+  </div>
+  <div class="col-4">
+    <img src="5ac36ba9806907472a6d539c1422d0a9">
+    <h4>Blue trouser</h4>
+    <div class="rating">
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bxs-star"></i>
+      <i class="bx bx-star"></i>
+    </div>
+    <p>$230.00</p>
+  </div>
+</div>
+
+<div class="page-btn">
+  <span>1</span>
+  <span>2</span>
+  <span>3</span>
+  <span>4</span>
+  <span>&#8594;</span>
+</div>
+
+  </div>
+</main>
+
+  <script data-parcel-key="9a2a27cba701e9772cb5b9653b359222">
+    feather.replace()
+  </script>
+</html>

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="94de8ee3b897e496e021d819277e82e8" rel="stylesheet">
+    <script src="9f54c9eb27a0a4d6308ad8680fa77984"></script>
+
+    <link rel="stylesheet" href="99bb3d9ada51833d6ea3e73a083623bd">
+    
+    <title>X-Merchandise | E-commerce store</title>
+</head>
+
+
+<body id="body-pd">
+    <header class="header" id="header">
+        <div class="header__toggle">
+            <i class="bx bx-menu nav__icon" id="header-toggle"></i>
+
+        </div>
+
+        <div class="search-wrapper">
+    <i class="bx bx-search-alt"></i>
+    <input type="search" autofocus="" placeholder="Search for products on X-M">
+  </div>
+
+
+        <div class="header__img">
+        <a href="b1f514a6b494197b0c6f572579d11f56" class="nav__link-l"></a>
+        <i class="bx bx-cart-alt nav__icon">0</i>
+      </div>
+    </header>
+
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div>
+                <a href="#" class="nav__logo">
+                    <i class="bx bx-layer nav__icon nav__logo-icon"></i>
+                   <!----<img src="" alt="" width="125px">---->
+                    <span class="nav__logo-name">XM</span>
+                </a>
+                <div class="nav__list">
+                    <a href="53629235b59a66ba012a0852907d197c" class="nav__link ">
+                       <i class="bx bx-grid-alt nav__icon"></i>
+
+                        <span class="nav__name">Dashboard</span>
+                    </a>
+
+                     <a href="30ff4c311ca152c62ed1c30c9335753e" class="nav__link">
+                       <i class="bx bx-user nav__icon"></i>
+
+                        <span class="nav__name">Account</span>
+                    </a>
+
+                     <a href="848591c998a76b00a60c8ec6dcca16b4" class="nav__link">
+                       <i class="bx bx-message-square-dots nav__icon"></i>
+
+                        <span class="nav__name">Products</span>
+                    </a>
+
+                     <a href="07ddf7e268f599980ec2b93a3ddb1c76" class="nav__link">
+                        <i class="bx bx-bookmark nav__icon"></i>
+
+                        <span class="nav__name">Recent</span>
+                    </a>
+
+                     <a href="#" class="nav__link">
+                       <i class="bx bx-folder nav__icon"></i>
+
+                        <span class="nav__name">Contact</span>
+                    </a>
+
+                     <a href="#" class="nav__link">
+                       <i class="bx bx-analyse nav__icon"></i>
+
+                        <span class="nav__name">Analytics</span>
+                    </a>
+                </div>
+            </div>
+
+            <a href="4ce4dcc317f24fcf73e919946242a4f4" class="nav__link">
+              <i class="bx bx-log-in nav__icon"></i>
+
+               <span class="nav__name">Log-in</span>
+             </a>
+
+            <a href="#" class="nav__link">
+             <i class="bx bx-log-out nav__icon"></i>
+               <span class="nav__name">Log-out</span>
+             </a>
+        </nav>
+    </div>
+
+<script src="86f71678cd1817a90ac7894147843c00" async=""></script>
+</body>
+
+<div class="row">
+  <div class="col-2">
+    <h1>Get Your Body <br>The Best Style!</h1>
+    <a href="" class="btn-2">Explore Now &#8594;</a>
+  </div>
+  <div class="col-2">
+    <img src="084e8d139dce12f2662e650cbe067691" alt="">
+  </div>
+</div>
+
+<script data-parcel-key="376a3bdc9181dcf5874cfa01c36961d4">
+  feather.replace()
+</script>
+
+<main>
+<script src="b3d51126900c9e22358973a8683737ea" async=""></script>
+<div class="listing">
+    <div class="container">
+      <div class="l-header">
+        <div class="header-title">
+          <h1 class="cop">Top selling food</h1>
+        </div>
+      </div>
+
+      <div class="listing-grid">
+        <div class="listing-grid-element">
+          <!-- <div class="image"> -->
+            <img class="shop-item-image" src="1330d45b93cb4b5c58f503862b34ba6b" alt="semo and vegetable">
+          <!-- </div> -->
+          <!-- <div class="text"> -->
+            <!-- <div> -->
+              <h3 class="shop-item-title">Efo riro with semo</h3>
+              <!-- <div class="info"> -->
+                <span class="shop-item-price">₦50.00 per wrap</span>
+                <button class="btn-1" type="button">Add to cart</button>
+              <!-- </div> -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <div class="textlower">
+            <span class="small-text">National kitchen food</span>
+          </div>
+        </div>
+         <div class="listing-grid-element">
+          <!-- <div class="image"> -->
+            <img class="shop-item-image" src="a6e1d129379c5e1b9b4f14241ea7e6d1">
+          <!-- </div> -->
+          <!-- <div class="text"> -->
+            <!-- <div> -->
+              <h3 class="shop-item-title">Efo riro with semo</h3>
+              <!-- <div class="info"> -->
+                <span class="shop-item-price">₦50.00 per wrap</span>
+                <button class="btn-1" type="button">Add to cart</button>
+              <!-- </div> -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <div class="textlower">
+            <span class="small-text">National kitchen food</span>
+          </div>
+        </div>
+         <div class="listing-grid-element">
+          <!-- <div class="image"> -->
+           <img class="shop-item-image" src="80ea53847545a1f477d6a9cfb64d8c5b">
+          <!-- </div> -->
+          <!-- <div class="text"> -->
+            <!-- <div> -->
+              <h3 class="shop-item-title">Efo riro with semo</h3>
+              <!-- <div class="info"> -->
+                <span class="shop-item-price">₦50.00 per wrap</span>
+                <button class="btn-1" type="button">Add to cart</button>
+              <!-- </div> -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <div class="textlower">
+            <span class="small-text">National kitchen food</span>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+  <div class="listing">
+  <div class="container">
+    <div class="l-header">
+      <div class="header-title">
+        <h1 class="cop">Clothes</h1>
+       
+      </div>
+    </div>
+
+    <div class="listing-grid">
+      <div class="listing-grid-element">
+        <div class="image">
+         <img src="e865493358329f3a3a24da30afa4c4cb" width="330px" alt="">
+        </div>
+        <div class="text">
+          <div class="text-title">
+            <h3>Blue boot-cut panties</h3>
+            <div class="info">
+              <span>₦5000.00</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="textlower">
+          <span class="small-text">X-M sales</span>
+        </div>
+      </div>
+      <div class="listing-grid-element">
+        <div class="image">
+         <img src="567f98179aeab2bec0594413527f8adc" alt="">
+        </div>
+        <div class="text">
+          <div class="text-title">
+            <h3>Jean trousers</h3>
+            <div class="info">
+              <span>₦2500.00</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="textlower">
+          <span class="small-text">X-M sales</span>
+        </div>
+      </div>
+      <div class="listing-grid-element">
+        <div class="image">
+         <img src="f284c62d9de6648911e3b642da6384d5" width="330px">
+        </div>
+        <div class="text">
+          <div class="text-title">
+            <h3>Sweat joggers</h3>
+            <div class="info">
+              <span> ₦10,000.00</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="textlower">
+          <span class="small-text">X-M sales</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="listing">
+  <div class="container">
+    <div class="l-header">
+      <div class="header-title">
+        <h1 class="cop"> Co-operate</h1>
+      </div>
+    </div>
+
+    <div class="listing-grid">
+      <div class="listing-grid-element">
+        <div class="image">
+         <img src="e6c91309b49955229a8d49ea85a0493c" alt="">
+        </div>
+        <div class="text">
+          <div class="text-title">
+            <h3>Casual shirt</h3>
+            <div class="info">
+              <span>₦</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="textlower">
+          <span class="small-text">National kitchen food</span>
+        </div>
+      </div>
+      <div class="listing-grid-element">
+        <div class="image">
+         <img src="126596fa61b04203ddedd4dbbb8efe3a" alt="">
+        </div>
+        <div class="text">
+          <div class="text-title">
+            <h3>Efo riro with semo</h3>
+            <div class="info">
+              <span>₦</span>
+            </div>
+          </div>
+        </div>
+        <div class="textlower">
+          <span class="small-text">National kitchen food</span>
+        </div>
+      </div>
+      <div class="listing-grid-element">
+        <div class="image">
+         <img src="8d638ac99fdaa73199c643465af00cd6" alt="">
+        </div>
+        <div class="text">
+          <div class="text-title">
+            <h3>Efo riro with semo</h3>
+            <div class="info">
+              <span>₦</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="textlower">
+          <span class="small-text">National kitchen food</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="listing">
+  <div class="container">
+    <div class="l-header">
+      <div class="header-title">
+        <h1 class="cop">Latest products</h1>
+      </div>
+    </div>
+
+    <div class="listing-grid">
+      <div class="listing-grid-element">
+        <div class="image">
+         <img src="83caf99cc805f4919795631173ada413" alt="">
+        </div>
+        <div class="text">
+          <div class="text-title">
+            <h3>Efo riro with semo</h3>
+            <div class="info">
+              <span>₦</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="textlower">
+          <span class="small-text">National kitchen food</span>
+        </div>
+      </div>
+      <div class="listing-grid-element">
+        <div class="image">
+         <img src="8f04cd742f2a57396a9cf3b597d51545" alt="">
+        </div>
+        <div class="text">
+          <div class="text-title">
+            <h3>Efo riro with semo</h3>
+            <div class="info">
+              <span>₦</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="textlower">
+          <span class="small-text">National kitchen food</span>
+        </div>
+      </div>
+      <div class="listing-grid-element">
+        <div class="image">
+         <img src="a0b2d175e6f9bce939cc79530ccac5c6" alt="">
+        </div>
+        <div class="text">
+          <div class="text-title">
+            <h3>Efo riro with semo</h3>
+            <div class="info">
+              <span>₦</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="textlower">
+          <span class="small-text">National kitchen food</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="listing-grid">
+  <div class="listing-grid-element">
+    <div class="image">
+      <img src="76534c4a0f9bd84132d477d885806b67" alt="">
+    </div>
+    <div class="text">
+      <div class="text-title">
+        <h3>Efo riro with semo</h3>
+        <div class="info">
+          <span>₦</span>
+        </div>
+      </div>
+    </div>
+    <div class="textlower">
+      <span class="small-text">National kitchen food</span>
+    </div>
+  </div>
+  <div class="listing-grid-element">
+    <div class="image">
+      <img src="16a1b4361960764dc800b4a30d5d7014" alt="">
+    </div>
+    <div class="text">
+      <div class="text-title">
+        <h3>Efo riro with semo</h3>
+        <div class="info">
+          <span>₦</span>
+        </div>
+      </div>
+    </div>
+    <div class="textlower">
+      <span class="small-text">National kitchen food</span>
+    </div>
+  </div>
+  <div class="listing-grid-element">
+    <div class="image">
+      <img src="8ee6ac7c6bde947f9e80cdaa848d0e3c" alt="">
+    </div>
+    <div class="text">
+      <div class="text-title">
+        <h3>Efo riro with semo</h3>
+        <div class="info">
+          <span>₦</span>
+        </div>
+      </div>
+    </div>
+    <div class="textlower">
+      <span class="small-text">National kitchen food</span>
+    </div>
+  </div>
+</div>
+
+  </div>
+  </div>
+<div class="container-1">
+  <div class="offer">
+  <div class="offered">
+     <div class="image">
+        <img src="474b97b07e7e240d9b96b45eda8f5a96" width="330px" height="280px" class="offer-img">
+        <div class="text">
+          <p>Excusively available on X-merchandise</p>
+         <h1>Oxford shoes 5</h1>
+         <small>The Oxford shoe 5 features a 40% better (than Loafers shoe )
+          BIG fluffy feels with adjustable toe lenght . So movement is best as
+          it can be</small>
+        </div>
+      </div>
+         
+  </div>
+</div>
+</div>
+
+<!-- <div class="footer">
+  <div class="credit">
+    <!---<h1>Download app from store</h1>-->
+  <!-- </div>
+</div> -->
+
+
+</main>
+</html>

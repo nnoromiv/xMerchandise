@@ -1,0 +1,10 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "c3.rootPackage": "",
+    "cSpell.words": [
+        "cung",
+        "Ushop"
+    ]
+}

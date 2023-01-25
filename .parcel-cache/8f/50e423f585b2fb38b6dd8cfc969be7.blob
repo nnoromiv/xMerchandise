@@ -1,0 +1,184 @@
+// const { ready } = require("jquery")
+var carts = document.querySelectorAll('.btn-1');
+var products = [{
+  name: "Efo riro with semo",
+  tag: "eforirowithsemo",
+  price: 50,
+  inCart: 0
+} // {
+//      name:"Efo riro with semo",
+//      tag:"eforirowithsemo",
+//      price:70,
+//      inCart:0
+//  },
+//  {
+//      name:"Efo riro with semo",
+//      tag:"eforirowithsemo",
+//      price:90,
+//      inCart:0
+//  },
+//  {
+//      name:"Efo riro with semo",
+//      tag:"eforirowithsemo",
+//      price:10,
+//      inCart:0
+//  }
+];
+
+for (var i = 0; i < carts.length; i++) {
+  carts[i].addEventListener('click', () => {
+    cartNumbers(products[0]);
+  });
+}
+
+if (document.readyState == 'loading') {
+  document.addEventListener('DOMContentLoaded', ready);
+} else {
+  ready();
+}
+
+function ready() {
+  var removeCartItemButtons = document.getElementsByClassName('btn-2');
+
+  for (var i = 0; i < removeCartItemButtons.length; i++) {
+    var button = removeCartItemButtons[i];
+    button.addEventListener('click', function (event) {
+      var buttonClicked = event.target;
+      buttonClicked.parentElement.parentElement.parentElement.remove();
+      updateCartTotal();
+    });
+  }
+
+  var quantityInputs = document.getElementsByClassName('cart-quantity-input');
+
+  for (var i = 0; i < quantityInputs.length; i++) {
+    var input = quantityInputs[i];
+    input.addEventListener('change', function (event) {
+      var input = event.target;
+
+      if (isNaN(input.value) || input.value <= 0) {
+        input.value = 1;
+      }
+
+      updateCartTotal();
+    });
+  }
+
+  var addToCartButtons = document.getElementsByClassName('btn-1');
+
+  for (var i = 0; i < addToCartButtons.length; i++) {
+    var button = addToCartButtons[i];
+    button.addEventListener('click', addToCartClicked);
+  } //  document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+
+}
+
+function onLoadCartNumbers() {
+  var productNumbers = localStorage.getItem('cartNumbers');
+
+  if (productNumbers) {
+    document.querySelector('.header__img span').textContent = productNumbers;
+  }
+}
+
+function cartNumbers(product) {
+  console.log("the product is ", product);
+  var productNumbers = localStorage.getItem('cartNumbers');
+  productNumbers = parseInt(productNumbers);
+
+  if (productNumbers) {
+    localStorage.setItem('cartNumbers', productNumbers + 1);
+    document.querySelector('.header__img span').textContent = productNumbers + 1;
+  } else {
+    localStorage.setItem('cartNumbers', 1);
+    document.querySelector('.header__img span').textContent = 1;
+  }
+
+  setItems(product);
+}
+
+function setItems(product) {
+  var cartItems = localStorage.getItem('productsInCart');
+  cartItems = JSON.parse(cartItems); //console.log("my cartItems are", cartItems);
+
+  if (cartItems != null) {
+    if (cartItems[product.tag] == undefined) {
+      cartItems = { ...cartItems,
+        [products.tag]: products
+      };
+    }
+
+    cartItems[product.tag].inCart += 1;
+  } else {
+    products.inCart = 1; //products.inCart = 1;
+
+    cartItems = {
+      [products.tag]: products //[products.tag]:product
+
+    };
+  }
+
+  localStorage.setItem("productsInCart", JSON.stringify(cartItems));
+}
+
+onLoadCartNumbers();
+
+function addToCartClicked(event) {
+  var button = event.target;
+  var shopItem = button.parentElement;
+  var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText;
+  var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText;
+  var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src; //  addItemToCart(title, price, imageSrc)
+} // function addItemToCart(title, price, imageSrc) {
+//      var cartRow = document.createElement('div')
+//      cartRow.classList.add('listing-grid-element')
+//       var cartItems = document.getElementsByClassName('listing-grid')[0]
+//      var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
+//      for (var i = 0; i < cartItemNames.length; i++) {
+//          if (cartItemNames[i].innerText == title) {
+//              alert('This item is already added to the cart')
+//              return
+//          }
+//      }
+//  var cartRowContents = `
+//            <div class="image">
+//              <img class="shop-item-image" src="https:images.unsplash.com/photo-1604329760661-e71dc83f8f26?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+//                alt="semo and vegetable"/>
+//            </div>
+//            <div class="text">
+//              <div>
+//                <h3 class="shop-item-title">Efo riro with semo</h3>
+//                <div class="info">
+//                  <span class="shop-item-price">₦50.00 per wrap</span>
+//                  <button class="btn-1" type="button">Add to cart</button>
+//                </div>
+//              </div>
+//            </div>
+//            <div class="textlower">
+//              <span class="small-text">National kitchen food</span>
+//            </div>
+//  `
+//  cartRow.innerHTML = cartRowContents
+//  cartItems.append(cartRow)
+//      cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
+//      cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
+//  }
+
+
+function updateCartTotal() {
+  var cartItemContainer = document.getElementsByClassName('cart-items')[0];
+  var cartRows = cartItemContainer.getElementsByClassName('cart-row');
+  var total = 0;
+
+  for (var i = 0; i < cartRows.length; i++) {
+    var cartRow = cartRows[i];
+    var priceElement = cartRow.getElementsByClassName('cart-price')[0];
+    var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0];
+    var price = parseFloat(priceElement.innerText.replace('$', ''));
+    var quantity = quantityElement.value;
+    total = total + price * quantity;
+  }
+
+  total = Math.round(total * 100) / 100;
+  document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total;
+}

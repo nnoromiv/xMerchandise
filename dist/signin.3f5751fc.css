@@ -1,0 +1,47 @@
+:root {
+  --color-error: red;
+  --color-success: skyblue;
+  --font-family: sans-serif;
+  --color-skyblue: skyblue;
+  --color-primary: #adf802;
+  --color-grey: rgb(238, 238, 238);
+  --color-greydarker: #808080;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  --border-radius: 5px;
+  margin: 0;
+  height: 120vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  font-size: 1.2rem;
+  background: url(background.f65efc6f.jpg);
+  background-size: cover;
+}
+
+h1 .logo {
+  color: var(--color-primary);
+}
+h1 .logo h2 span {
+  color: var(--color-success);
+}
+h1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+/*# sourceMappingURL=signin.css.map */
+/*# sourceMappingURL=signin.3f5751fc.css.map */

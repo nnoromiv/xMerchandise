@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/product.4411ab9e.css">
+
+    <title>Cart - X-Merchandise</title>
+  </head>
+
+  <body id="body-pd">
+    <header class="header" id="header">
+      <div class="header__toggle">
+        <i class="bx bx-cart-alt nav__icon" id="header-toggle"></i>
+        <span>Cart</span>
+      </div>
+
+      <!-- <div class="search-wrapper">
+        <i class="bx bx-search-alt"></i>
+        <input type="search" autofocus placeholder="Search for products " />
+      </div> -->
+    </header>
+
+    <div class="l-navbar" id="nav-bar">
+      <nav class="nav">
+        <div>
+          <a href="/index.html" class="nav__logo">
+            <i class="bx bx-layer nav__icon nav__logo-icon"></i>
+            <!----<img src="" alt="" width="125px">---->
+            <span class="nav__logo-name">XM</span>
+          </a>
+          <div class="nav__list">
+            <a href="/admdas.html" class="nav__link ">
+              <i class="bx bx-grid-alt nav__icon"></i>
+
+              <span class="nav__name">Dashboard</span>
+            </a>
+
+            <a href="/profile.html" class="nav__link">
+              <i class="bx bx-user nav__icon"></i>
+
+              <span class="nav__name">Account</span>
+            </a>
+
+            <a href="/product.html" class="nav__link active">
+              <i class="bx bx-message-square-dots nav__icon"></i>
+
+              <span class="nav__name">Products</span>
+            </a>
+
+            <a href="/product-details.html" class="nav__link">
+              <i class="bx bx-bookmark nav__icon"></i>
+
+              <span class="nav__name">Recent</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-folder nav__icon"></i>
+
+              <span class="nav__name">Contact</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-analyse nav__icon"></i>
+
+              <span class="nav__name">Analytics</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="/login.html" class="nav__link">
+          <i class="bx bx-log-in nav__icon"></i>
+
+          <span class="nav__name">Log-in</span>
+        </a>
+
+        <a href="#" class="nav__link">
+          <i class="bx bx-log-out nav__icon"></i>
+          <span class="nav__name">Log-out</span>
+        </a>
+      </nav>
+    </div>
+
+    <script src="/navbar.0c13d93e.js" async=""></script>
+  </body>
+
+  <main>
+    <script src="/cart.c762da13.js" async=""></script>
+      <div class="cart-page">
+        <div class="cart-row">
+          <span class="cart-item cart-header cart-column">PRODUCT</span>
+          <span class="cart-price cart-header cart-column">PRICE</span>
+          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+          <div class="cart-row">
+            <div class="cart-item cart-column">
+              <img class="cart-item-image" src="/2.0e44f629.jpg">
+              <span class="cart-item-title">Blue Trousers</span>
+            </div>
+            <span class="cart-price cart-column">$50.00</span>
+            <div class="cart-quantity cart-column">
+              <input class="cart-quantity-input" type="number" value="1" min="0">
+                  <span><button class="btn-2" type="button">Remove</button></span>
+            </div>
+            </div>
+            <div class="cart-row">
+              <div class="cart-item cart-column">
+                <img class="cart-item-image" src="/33.4ab5c791.jpg">
+                <span class="cart-item-title">Nike Jacket</span>
+              </div>
+              <span class="cart-price cart-column">$69.05</span>
+              <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="1" min="0">
+                <span><button class="btn-2" type="button">Remove</button></span>
+            </div>
+            </div>
+            <div class="cart-row">
+              <div class="cart-item cart-column">
+                <img class="cart-item-image" src="/mlj3352.f8ecac67.jpg">
+                <span class="cart-item-title">Ash Shirt</span>
+              </div>
+              <span class="cart-price cart-column">$75.09</span>
+              <div class="cart-quantity cart-column">
+              <input class="cart-quantity-input" type="number" value="1" min="0">
+              <span><button class="btn-2" type="button">Remove</button></span>
+            </div>
+          </div>
+        <div class="cart-total">
+          <div class="cart-total-title">Total</div>
+          <span class="cart-total-price">$ 300</span>
+        </div>
+          <!-- <div class="total-price">
+            <table>
+              <tr>
+                <td>Subtotal</td>
+                <td class="cart-subtotal-price">$195.40</td>
+              </tr>
+              <tr>
+                <td>Delivery fee</td>
+                <td>$10.99</td>
+              </tr>
+              <tr>
+                <td>Total</td>
+                <td class="cart-total-price">$215.3</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$56.00</span>
+          </div> -->
+      </div>
+
+
+
+
+     <link rel="stylesheet" href="/prod-details.52749ed1.css">
+  </div></main>
+</html>
