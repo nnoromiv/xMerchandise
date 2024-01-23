@@ -6,9 +6,9 @@
   --font-family: sans-serif;
   --color-skyblue: skyblue;
   --color-primary: #adf802;
-  --color-primary-dark: #3e5801;
+  --color-primaryDarker: #3e5801;
   --color-grey: rgb(238, 238, 238);
-  --color-greydarker: #5a5a5a;
+  --color-greyDarker: #5a5a5a;
   --color-general: #ffffff;
   --header-height: 3rem;
   --nav-width: 68px;
@@ -92,7 +92,7 @@ a {
 }
 
 .header__toggle {
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   font-size: 1.5rem;
   cursor: pointer;
   font-weight: 500;
@@ -110,7 +110,7 @@ a {
   left: -30%;
   width: var(--nav-width);
   height: 100vh;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primaryDarker);
   padding: 0.5rem 1rem 0 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -171,7 +171,7 @@ a {
 
 .nav__link-l {
   position: absolute;
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   margin-bottom: 1.5rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -364,7 +364,7 @@ option {
 
 .page-btn span {
   display: inline-block;
-  border: 1px solid var(--color-greydarker);
+  border: 1px solid var(--color-greyDarker);
   margin-left: 10px;
   width: 40px;
   height: 40px;

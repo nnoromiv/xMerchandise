@@ -5,9 +5,9 @@
   --font-family: sans-serif;
   --color-skyblue: skyblue;
   --color-primary: #adf802;
-  --color-primary-dark: #3e5801;
+  --color-primaryDarker: #3e5801;
   --color-grey: rgb(238, 238, 238);
-  --color-greydarker: #f0f0f0;
+  --color-greyDarker: #f0f0f0;
   --color-general: #ffffff;
 }
 
@@ -37,7 +37,7 @@ input {
   width: 2000px;
   height: 2000px;
   border-radius: 50%;
-  background: linear-gradient(-45deg, var(--color-primary-dark), var(--color-primary));
+  background: linear-gradient(-45deg, var(--color-primaryDarker), var(--color-primary));
   top: -10%;
   right: 48%;
   -webkit-transform: translateY(-50%);
@@ -64,7 +64,7 @@ input {
   text-decoration: none;
   font-family: sans-serif;
   font-weight: 300;
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   font-style: oblique;
   margin-left: 20px;
 }
@@ -132,7 +132,7 @@ form.sign-up-form {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
 }
 
 .input-field i {
@@ -151,31 +151,31 @@ form.sign-up-form {
   line-height: 1;
   font-weight: 550;
   font-size: 1rem;
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
 }
 
 .input-field input::-webkit-input-placeholder {
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   font-weight: 500;
 }
 
 .input-field input::-moz-placeholder {
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   font-weight: 500;
 }
 
 .input-field input:-ms-input-placeholder {
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   font-weight: 500;
 }
 
 .input-field input::-ms-input-placeholder {
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   font-weight: 500;
 }
 
 .input-field input::placeholder {
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   font-weight: 500;
 }
 
@@ -195,7 +195,7 @@ form.sign-up-form {
 }
 
 .btn:hover {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primaryDarker);
   color: #f0f0f0;
 }
 
@@ -219,7 +219,7 @@ form.sign-up-form {
 .social-icon {
   height: 45px;
   width: 45px;
-  border: 1px solid var(--color-primary-dark);
+  border: 1px solid var(--color-primaryDarker);
   margin: 0 0.45rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -239,7 +239,7 @@ form.sign-up-form {
 }
 
 .social-icon:hover {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primaryDarker);
   color: #f0f0f0;
 }
 
@@ -309,7 +309,7 @@ form.sign-up-form {
 }
 
 .btn.transparent:hover {
-  border: 2px solid var(--color-primary-dark);
+  border: 2px solid var(--color-primaryDarker);
   color: #3e5801;
   background: #adf802;
 }

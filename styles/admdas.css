@@ -7,9 +7,9 @@
   --font-family: sans-serif;
   --color-skyblue: skyblue;
   --color-primary: #adf802;
-  --color-primary-dark: #3e5801;
+  --color-primaryDarker: #3e5801;
   --color-grey: rgb(238, 238, 238);
-  --color-greydarker: #5a5a5a;
+  --color-greyDarker: #5a5a5a;
   --color-general: #ffffff;
   --header-height: 3rem;
   --nav-width: 68px;
@@ -75,7 +75,7 @@
 
 .user-wrapper small{
     display: inline-block;
-    color: var(--color-greydarker);
+    color: var(--color-greyDarker);
    
 }
 
@@ -111,11 +111,11 @@ main{
 
 .card-single div:last-child span{
     font-size: 3rem; 
-    color: var(--color-primary-dark);  
+    color: var(--color-primaryDarker);  
 }
 
 .card-single:last-child{
-    background: var(--color-primary-dark);    
+    background: var(--color-primaryDarker);    
 }
 
 .card-single:last-child h1,.card-single:last-child div:first-child span, .card-single:last-child div:last-child span {
@@ -150,18 +150,18 @@ main{
 }
 
 .card-header button{
-    background: var(--color-primary-dark);
+    background: var(--color-primaryDarker);
     border-radius: 10px;
     color: var(--color-general);
     font-size: .8rem;
     padding: .5rem 1rem;
-    border: 1px solid var(--color-primary-dark);
+    border: 1px solid var(--color-primaryDarker);
 }
 
 .card-header button:hover{
     background-color: #adf802;
     color: black;
-    border: 1px solid var(--color-primary-dark);
+    border: 1px solid var(--color-primaryDarker);
 }
 
 table{
@@ -196,16 +196,15 @@ tr td:last-child{
 }
 
 .status.done{
-    background: rebeccapurple;
-    
+    background: #663399;    
 }
 
 .status.testing{
-    background: deepskyblue;
+    background: #00bfff;
 }
 
 .status.process{
-    background: orangered;
+    background: #ff4500;
 }
 
 .table-responsive{
@@ -238,7 +237,7 @@ tr td:last-child{
 
 .info small{
     font-weight: 200;
-    color: var(--color-greydarker);
+    color: var(--color-greyDarker);
 }
 
 .contact span{
@@ -268,7 +267,7 @@ a {
 }
 
 .header__toggle {
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -292,7 +291,7 @@ a {
   left: -30%;
   width: var(--nav-width);
   height: 100vh;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primaryDarker);
   padding: 0.5rem 1rem 0 0;
   transition: 0.5s;
   z-index: var(--z-fixed);

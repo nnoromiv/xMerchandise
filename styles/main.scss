@@ -13,15 +13,12 @@ main{
   --font-family: sans-serif;
   --color-skyblue: skyblue;
   --color-primary: #adf802;
-  --color-primary-dark: #3e5801;
+  --color-primaryDarker: #3e5801;
   --color-grey: rgb(238, 238, 238);
-  --color-greydarker: #5a5a5a;
+  --color-greyDarker: #5a5a5a;
   --color-general: #ffffff;
-  --header-height: 3rem;
-  --nav-width: 68px;
   --body-font: 'Poppins', sans-serif;
   --normal-font-size: 1rem;
-  --z-fixed: 100;
 }
 
 *,
@@ -32,7 +29,7 @@ main{
 
 body {
   position: relative;
-  margin: var(--header-height) 0 0 0;
+  margin: var(3rem) 0 0 0;
   padding: 0 1rem;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -76,7 +73,7 @@ a {
 
 .header {
   width: 100%;
-  height: var(--header-height);
+  height: var(3rem);
   position: fixed;
   top: 0;
   left: 0;
@@ -85,7 +82,7 @@ a {
   justify-content: space-between;
   padding: 0 1rem;
   background: #ffffff;
-  z-index: var(--z-fixed);
+  z-index: var(100);
   transition: 0.5s;
 }
 
@@ -110,12 +107,12 @@ a {
   position: fixed;
   top: 0;
   left: -30%;
-  width: var(--nav-width);
+  width: var(68px);
   height: 100vh;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primaryDarker);
   padding: 0.5rem 1rem 0 0;
   transition: 0.5s;
-  z-index: var(--z-fixed);
+  z-index: var(100);
 }
 
 .nav {
@@ -160,7 +157,7 @@ a {
 
 .nav__link-l {
   position: absolute;
-  color: var(--color-primary-dark);
+  color: var(--color-primaryDarker);
   margin-bottom: 1.5rem;
   transition: 0.3s;
 }
@@ -181,7 +178,7 @@ a {
 }
 
 .body-pd {
-  padding-left: calc(var(--nav-width) + 1rem);
+  padding-left: calc(var(68px) + 1rem);
 
 }
 
@@ -270,7 +267,7 @@ a {
         }
 
         span {
-            color: var(--color-primary-dark);
+            color: var(--color-primaryDarker);
             font-size: 1rem;
 
 
@@ -326,7 +323,7 @@ a {
             }
 
             span {
-              color: var(--color-greydarker);
+              color: var(--color-greyDarker);
             }
 
             .small-text {
@@ -348,7 +345,7 @@ a {
                 span {
                     font-size: .9rem;
                     font-weight: 300;
-                    color: var(--color-greydarker);
+                    color: var(--color-greyDarker);
                     
                 }          
         }
@@ -360,7 +357,7 @@ a {
 .btn-1 {
   position: absolute;
   margin: -21px 0 0 210px;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primaryDarker);
   transition: all .3s ease-in-out;
   opacity: 1;
   color: var(--color-general);
@@ -441,13 +438,13 @@ h1 {
 
 @media screen and (min-width: 768px) {
   body {
-    margin: calc(var(--header-height) + 1rem) 0 0 0;
-    padding-left: calc(var(--nav-width) + 2rem);
+    margin: calc(var(3rem) + 1rem) 0 0 0;
+    padding-left: calc(var(68px) + 2rem);
   }
 
   .header {
-    height: calc(var(--header-height) + 1rem);
-    padding: 0 2rem 0 calc(var(--nav-width) + 2rem);
+    height: calc(var(3rem) + 1rem);
+    padding: 0 2rem 0 calc(var(68px) + 2rem);
   }
   .header__img {
     width: 40px;
@@ -461,10 +458,10 @@ h1 {
     padding: 1rem 1rem 0 0;
   }
   .show {
-    width: calc(var(--nav-width) + 156px);
+    width: calc(var(68px) + 156px);
   }
   .body-pd {
-    padding-left: calc(var(--nav-width) + 188px);
+    padding-left: calc(var(68px) + 188px);
   }
 }
 
