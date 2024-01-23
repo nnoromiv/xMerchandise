@@ -14,10 +14,10 @@ const SideBar = ({show, active} : NavigationProps) => {
             title: "Dashboard"
         },
         {
-            link: "",
+            link: "profile",
             icon: <BiUser className='text-primary text-xl' />,
             activeIcon: <BiUser className='text-general text-xl' />,
-            title: "Accounts"
+            title: "Profile"
         },
         {
             link: "",
