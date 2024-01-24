@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link'
-import { BiAnalyse, BiBookmark, BiFolder, BiGridAlt, BiLayer, BiLogIn, BiLogOut, BiMessageSquareDots, BiUser } from 'react-icons/bi'
+import { BiGridAlt, BiLayer, BiLogIn, BiLogOut, BiMessageSquareDots, BiUser } from 'react-icons/bi'
 import { NavigationProps } from '../types'
 
 
@@ -20,28 +20,10 @@ const SideBar = ({show, active} : NavigationProps) => {
             title: "Profile"
         },
         {
-            link: "",
+            link: "product",
             icon: <BiMessageSquareDots className='text-primary text-xl' />,
             activeIcon: <BiMessageSquareDots className='text-general text-xl' />,
             title: "Products"
-        },
-        {
-            link: "",
-            icon: <BiBookmark className='text-primary text-xl' />,
-            activeIcon: <BiBookmark className='text-general text-xl' />,
-            title: "Recent"
-        },
-        {
-            link: "",
-            icon: <BiFolder className='text-primary text-xl' />,
-            activeIcon: <BiFolder className='text-general text-xl' />,
-            title: "Contacts"
-        },
-        {
-            link: "",
-            icon: <BiAnalyse className='text-primary text-xl' />,
-            activeIcon: <BiAnalyse className='text-general text-xl' />,
-            title: "Analytics"
         }
     ]
     return (

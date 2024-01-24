@@ -26,6 +26,18 @@ import WATCH_2 from './store/w2.jpg'
 import WATCH_3 from './store/w3.jpg'
 
 import OXFORD_1 from './store/oxford1.jpg'
+import OXFORD_2 from './store/oxford2.jpg'
+
+
+import COM_1 from './store/cot1.jpg'
+import COM_2 from './store/cot2.jpg'
+import COM_3 from './store/cot3.jpg'
+
+import CT_1 from './store/ct1.jpg'
+import CT_2 from './store/ct2.jpg'
+
+import SHOE_1 from './store/sh1.jpg'
+import SHOE_2 from './store/sh2.jpg'
 
 
 export {
@@ -53,5 +65,16 @@ export {
     WATCH_2,
     WATCH_3,
 
-    OXFORD_1
+    OXFORD_1,
+    OXFORD_2,
+
+    COM_1,
+    COM_2,
+    COM_3,
+
+    CT_1,
+    CT_2,
+
+    SHOE_1,
+    SHOE_2
 }
