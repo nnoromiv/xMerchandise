@@ -54,7 +54,7 @@ const SideBar = ({show, active} : NavigationProps) => {
                     </div>
                 </div>
 
-                <Link href="./login.html" className="flex gap-3 py-2 justify-center  items-center pl-4 pr-0 mb-6">
+                <Link href="auth" className="flex gap-3 py-2 justify-center  items-center pl-4 pr-0 mb-6">
                     <BiLogIn className='text-primary text-xl' />
                     {
                         !show ? <></> : <span className="text-lg text-primary">Log-in</span>

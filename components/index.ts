@@ -12,6 +12,7 @@ import Profile from "./Profile/Profile";
 import Search from "./Search";
 import SideBar from "./SideBar";
 import Store from "./Store";
+import Auth from "./Auth/Auth";
 
 export {
     Search,
@@ -27,6 +28,7 @@ export {
     Cart,
     ClickCart,
     Profile,
-    StatisticsCard
+    StatisticsCard,
+    Auth
 
 }

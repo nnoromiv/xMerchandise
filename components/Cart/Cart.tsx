@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from 'react'
 import { NavigationProps } from '../../types'
 import { BiCartAlt } from 'react-icons/bi'

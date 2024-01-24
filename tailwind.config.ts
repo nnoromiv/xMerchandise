@@ -12,6 +12,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          "loginGradient": "linear-gradient(-45deg, #3e5801, #adf802)"
+
       },
       boxShadow : {
         "shadow" : "0px 5px 10px rgba(0, 0, 0, .2)",

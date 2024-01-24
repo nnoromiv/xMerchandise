@@ -1,4 +1,11 @@
 import HOME from './svg/home.svg'
+import CAT from './svg/cat_welcome.svg'
+import EATING from './svg/eating.svg'
+import GROCERIES from './svg/groceries.svg'
+import LOGIN from './svg/login.svg'
+import SHOPPING from './svg/shopping.svg'
+import WEB_SHOPPING from './svg/web_shopping.svg'
+import WELCOME from './svg/welcome.svg'
 
 import FOOD_1 from './store/pie.jpg'
 import FOOD_2 from './store/food.jpg'
@@ -42,6 +49,13 @@ import SHOE_2 from './store/sh2.jpg'
 
 export {
     HOME,
+    CAT,
+    EATING,
+    GROCERIES,
+    LOGIN,
+    SHOPPING,
+    WEB_SHOPPING,
+    WELCOME,
 
     FOOD_1,
     FOOD_2,
