@@ -58,4 +58,5 @@ export interface InputTypeProps {
     index: string,
     iconType: ReactElement
     placeholder: string
+    key: number
 }

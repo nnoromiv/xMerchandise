@@ -33,9 +33,9 @@ const AUTHENICATION = [
 
 
 
-const FormInput = ({ inputType, iconType, index, placeholder }: InputTypeProps) => {
+const FormInput = ({ key, inputType, iconType, index, placeholder }: InputTypeProps) => {
     return (
-        <div className='w-[400px] flex gap-1 items-center mb-7 bg-grey px-10 py-3 rounded-full max-[426px]:w-[365px] max-[376px]:w-[325px] max-[321px]:w-[295px]'>
+        <div key={key} className='w-[400px] flex gap-1 items-center mb-7 bg-grey px-10 py-3 rounded-full max-[426px]:w-[365px] max-[376px]:w-[325px] max-[321px]:w-[295px]'>
             <div className='text-3xl text-primaryDarker'>
                 {iconType}
             </div>
@@ -61,6 +61,7 @@ const Auth = () => {
                     {
                         AUTHENICATION.map((auth, index) => (
                             <FormInput
+                                key={index}
                                 iconType={auth.iconType}
                                 index={index.toString()}
                                 inputType={auth.inputType}
@@ -87,6 +88,7 @@ const Auth = () => {
                     {
                         AUTHENICATION.slice(0,2).map((auth, index) => (
                             <FormInput
+                                key={index}
                                 iconType={auth.iconType}
                                 index={index.toString()}
                                 inputType={auth.inputType}
