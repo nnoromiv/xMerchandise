@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: {
-        export: true
-    }
+    exportPathMap: function () {
+        return {
+            '/': { page: '/' },
+            // Add other pages as needed
+        };
+    },
 };
 
 export default nextConfig;
-  
