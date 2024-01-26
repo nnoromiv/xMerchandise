@@ -51,111 +51,111 @@ export const CUSTOMER = [
 
 const TOP_SELLING = [
     {
-        index: 1,
+        index: 0,
         amount: 1,
         itemImage: FOOD_1,
         itemName: "America Meat Pie",
-        itemPrice: 50.00
+        itemPrice: 708.7
     },
     {
         index: 1,
         amount: 1,
         itemImage: FOOD_2,
         itemName: "Efo riro with semo",
-        itemPrice: 50.00
+        itemPrice: 2000.20
     },
 ]
 
 const TROUSERS = [
     {
-        index: 1,
+        index: 2,
         amount: 1,
         itemImage: TROUSER_1,
         itemName: "Trousers - Blue",
-        itemPrice: 50.00
+        itemPrice: 53.90
     },
     {
-        index: 1,
+        index: 3,
         amount: 1,
         itemImage: TROUSER_2,
         itemName: "Trousers - Blue fit",
-        itemPrice: 50.00
+        itemPrice: 1000.40
     },
     {
-        index: 1,
+        index: 4,
         amount: 1,
         itemImage: TROUSER_3,
         itemName: "Pocket Trousers",
-        itemPrice: 50.00
+        itemPrice: 10.00
     },
 ]
 
 const SHIRT = [
     {
-        index: 1,
+        index: 5,
         amount: 1,
         itemImage: SHIRT_1,
         itemName: "Shirt - Blue Front",
-        itemPrice: 50.00
+        itemPrice: 68.44
     },
     {
-        index: 1,
+        index: 6,
         amount: 1,
         itemImage: SHIRT_2,
         itemName: "Shirt - Blue Back",
-        itemPrice: 50.00
+        itemPrice: 45.98
     },
     {
-        index: 1,
+        index: 7,
         amount: 1,
         itemImage: SHIRT_3,
         itemName: "Shirt - Blue Close",
-        itemPrice: 50.00
+        itemPrice: 77.98
     },
 ]
 
 const LATEST_PRODUCT = [
     {
-        index: 1,
+        index: 8,
         amount: 1,
         itemImage: SHIRT_4,
         itemName: "Shirt - Blue Front",
-        itemPrice: 50.00
+        itemPrice: 97.2
     },
     {
-        index: 1,
+        index: 9,
         amount: 1,
         itemImage: SHIRT_5,
         itemName: "Shirt - Gray",
-        itemPrice: 50.00
+        itemPrice: 24.40
     },
     {
-        index: 1,
+        index: 10,
         amount: 1,
         itemImage: SHIRT_6,
         itemName: "Shirt - White",
-        itemPrice: 50.00
+        itemPrice: 98.01
     },
     {
-        index: 1,
+        index: 11,
         amount: 1,
         itemImage: WATCH_1,
         itemName: "WATCH - XII",
-        itemPrice: 50.00
+        itemPrice: 800.78
     },
     {
-        index: 1,
+        index: 12,
         amount: 1,
         itemImage: WATCH_2,
         itemName: "WATCH - Rolex",
-        itemPrice: 50.00
+        itemPrice: 80.90
     },
     {
-        index: 1,
+        index: 13,
         amount: 1,
         itemImage: WATCH_3,
         itemName: "WATCH - QLEVS",
-        itemPrice: 50.00
+        itemPrice: 100.00
     },
 ]
 
@@ -180,154 +180,154 @@ export const STORE_CONTENT = [
 
 const PRODUCTS = [
     {
-        index: 1,
+        index: 14,
         amount: 1,
         itemImage: SHIRT_4,
         itemName: "Shirt - Blue Front",
         itemPrice: 40.00
     },
     {
-        index: 1,
+        index: 15,
         amount: 1,
         itemImage: SHIRT_5,
         itemName: "Shirt - Gray",
         itemPrice: 20.87
     },
     {
-        index: 1,
+        index: 16,
         amount: 1,
         itemImage: SHIRT_6,
         itemName: "Shirt - White",
         itemPrice: 99.99
     },
     {
-        index: 1,
+        index: 17,
         amount: 1,
         itemImage: WATCH_1,
         itemName: "WATCH - XII",
         itemPrice: 510
    },
     {
-        index: 1,
+        index: 18,
         amount: 1,
         itemImage: WATCH_2,
         itemName: "WATCH - Rolex",
         itemPrice: 65.98
     },
     {
-        index: 1,
+        index: 19,
         amount: 1,
         itemImage: WATCH_3,
         itemName: "WATCH - QLEVS",
         itemPrice: 89.6
     },
     {
-        index: 1,
+        index: 20,
         amount: 1,
         itemImage: SHIRT_1,
         itemName: "Shirt - Blue Front",
         itemPrice: 400.6
     },
     {
-        index: 1,
+        index: 21,
         amount: 1,
         itemImage: SHIRT_2,
         itemName: "Shirt - Blue Back",
         itemPrice: 19.66
     },
     {
-        index: 1,
+        index: 22,
         amount: 1,
         itemImage: SHIRT_3,
         itemName: "Shirt - Blue Close",
         itemPrice: 14.20
     },
     {
-        index: 1,
+        index: 23,
         amount: 1,
         itemImage: TROUSER_1,
         itemName: "Trousers - Blue",
         itemPrice: 18.77
     },
     {
-        index: 1,
+        index: 24,
         amount: 1,
         itemImage: TROUSER_2,
         itemName: "Trousers - Blue fit",
         itemPrice: 66.90
     },
     {
-        index: 1,
+        index: 25,
         amount: 1,
         itemImage: TROUSER_3,
         itemName: "Pocket Trousers",
         itemPrice: 44.79
     },
     {
-        index: 1,
+        index: 26,
         amount: 1,
         itemImage: FOOD_1,
         itemName: "America Meat Pie",
         itemPrice: 501
    },
     {
-        index: 1,
+        index: 27,
         amount: 1,
         itemImage: FOOD_2,
         itemName: "Efo riro with semo",
         itemPrice: 54.20
     },
     {
-        index: 1,
+        index: 28,
         amount: 1,
         itemImage: OXFORD_2,
         itemName: "America Meat Pie",
         itemPrice: 1000709
     },
     {
-        index: 1,
+        index: 29,
         amount: 1,
         itemImage: COM_1,
         itemName: "Efo riro with semo",
         itemPrice: 76.94
     },
     {
-        index: 1,
+        index: 30,
         amount: 1,
         itemImage: COM_2,
         itemName: "America Meat Pie",
         itemPrice: 67.94
     },
     {
-        index: 1,
+        index: 31,
         amount: 1,
         itemImage: COM_3,
         itemName: "Efo riro with semo",
         itemPrice: 98.97
     },
     {
-        index: 1,
+        index: 32,
         amount: 1,
         itemImage: CT_1,
         itemName: "America Meat Pie",
         itemPrice: 45.04
     },
     {
-        index: 1,
+        index: 33,
         amount: 1,
         itemImage: CT_2,
         itemName: "Efo riro with semo",
         itemPrice: 51.32
     },
     {
-        index: 1,
+        index: 34,
         amount: 1,
         itemImage: SHOE_1,
         itemName: "America Meat Pie",
         itemPrice: 72.98
     },
     {
-        index: 1,
+        index: 35,
         amount: 1,
         itemImage: SHOE_2,
         itemName: "Efo riro with semo",

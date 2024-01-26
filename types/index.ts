@@ -1,5 +1,5 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
-import { ReactNode } from "react"
+import { ReactElement, ReactNode } from "react"
 
 export interface NavigationProps {
     handleMenu?: () => void
@@ -15,7 +15,8 @@ export interface SearchProps {
 export interface ButtonProps {
     title: string
     image?: boolean
-    customStyle? : string
+    customStyle?: string
+    clickFunction?: () => void
 }
 
 export interface StorePropsContents {
@@ -43,11 +44,18 @@ export interface Statistics {
     customStyle?: string
 }
 
-export interface CartFunctionProps  {
+export interface CartFunctionProps {
     index: number
     CartItems?: StorePropsContents[]
     cartImage?: string | StaticImport
-    cartName?: string, 
+    cartName?: string,
     cartPrice: number
     amount: number
-  }
+}
+
+export interface InputTypeProps {
+    inputType: React.HTMLInputTypeAttribute | undefined,
+    index: string,
+    iconType: ReactElement
+    placeholder: string
+}

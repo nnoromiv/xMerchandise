@@ -12,7 +12,7 @@ const Hero = ({show} : NavigationProps) => {
                 <Button title='Explore Now' image/>
             </div>
             <div className="w-[500px] max-[1024px]:w-[400px] max-[769px]:w-[300px] max-[426px]:w-[200px]">
-                <Image src={HOME} width={500} height={100} alt="" />
+                <Image priority src={HOME} width={500} height={100} alt="" />
             </div>
         </section>
     )

@@ -17,7 +17,7 @@ const Profile = () => {
 
             <div className="bg-general px-10 py-5 flex justify-between items-center shadow-shadow relative z-[98] max-[426px]:px-3">
                 <div className="flex items-center gap-10">
-                    <Image src={FOOD_2} width={200 } height={200} alt="" className="relative rounded-full border-[4px] border-solid border-grey max-[426px]:hidden" />
+                    <Image priority src={FOOD_2} width={200 } height={200} alt="" className="relative rounded-full border-[4px] border-solid border-grey max-[426px]:hidden" />
                     <div className="mt-auto">
                         <h3 className="text-3xl font-bold">John Doe</h3>
                         <p className="text-grey">Osun,Nigeria</p>

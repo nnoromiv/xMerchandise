@@ -19,7 +19,7 @@ const Store: React.FC<StoreProps> = ({ super: { show }, storeTitle, storeItems, 
                                 <div className='h-[250px] hover:-translate-y-3 overflow-hidden rounded-2xl border-[1px]'>
                                     {
                                         item.itemImage !== undefined &&
-                                        <Image className='cursor-pointer object-contain ' src={item.itemImage} alt="semo and vegetable" width={440} height={100} />
+                                        <Image priority className='cursor-pointer object-contain ' src={item.itemImage} alt="semo and vegetable" width={440} height={100} />
                                     }
                                 </div>
                                 <div className='mt-3 px-2 flex justify-between'>

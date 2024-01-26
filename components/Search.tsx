@@ -9,7 +9,7 @@ import { useCart } from './CartProvider'
 
 const Search = ({super: {handleMenu, show}, pageIcon}: SearchProps) => {
 
-  const {cartNumber } = useCart()
+  const { cartNumber } = useCart()
 
   return (
     <section className={` ${show ? 'ml-44' : 'ml-14'} top-0 left-0 h-12 fixed z-[100] flex items-center justify-between p-4 py-9 bg-general  `} >

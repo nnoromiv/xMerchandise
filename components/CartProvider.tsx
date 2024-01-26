@@ -19,7 +19,6 @@ export const CartProvider = ({children} : any) => {
         // The state update might not be reflected immediately, so use a callback
         setCartNumber( prevCartNumber => {
           const newCartNumber = CartItems.length;
-          console.log(CartItems)
           return newCartNumber;
         });
       };
